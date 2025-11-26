@@ -181,12 +181,12 @@ Be kind. We're all learning.
 
 **SDKs:** MIT License (free to use, modify, distribute)
 
-**QWED Core Engines:** Proprietary (contact founders@qwed.tech for licensing)
+**QWED Core Engines:** Proprietary (contact rahul@qwed.tech for licensing)
 
 **Benchmarks:** CC0 (public domain - use freely)
 
 ---
 
-Built with ❤️ in Mumbai by [Rahul Dass](https://twitter.com/rahuldass29)
+Built with ❤️ in Pune by [Rahul Dass](https://twitter.com/rahuldass29)
 
-Questions? → founders@qwed.tech
+Questions? → rahul@qwed.tech
