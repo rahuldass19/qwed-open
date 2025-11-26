@@ -16,14 +16,13 @@ This repository contains the **Client SDKs** and **Benchmarks** to help you inte
 
 ## 🤔 Why Open Source?
 
-QWED's core verification engines are **proprietary** (our competitive moat).
+We believe in transparent AI verification. While our core verification engines remain proprietary, we're open-sourcing:
 
-But we're open-sourcing:
-- ✅ **Client SDKs** - So developers can integrate easily
-- ✅ **Benchmarks** - So you can verify our claims independently  
-- ✅ **Examples** - So you can see real use cases
+- ✅ **Client SDKs** - Integrate QWED into any application
+- ✅ **Benchmarks** - Independently verify our accuracy claims
+- ✅ **Examples** - See real-world use cases
 
-**Philosophy:** "Trust, but verify." We give you the tools to verify.
+**Philosophy:** "Trust, but verify." We give you the tools to test our claims yourself.
 
 ---
 
