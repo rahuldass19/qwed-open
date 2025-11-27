@@ -1,7 +1,7 @@
 # QWED Open Source Ecosystem
 
 [![PyPI](https://img.shields.io/pypi/v/qwed)](https://pypi.org/project/qwed/)
-[![npm](https://img.shields.io/npm/v/@qwed/sdk)](https://www.npmjs.com/package/@qwed/sdk)
+[![npm](https://img.shields.io/npm/v/qwed-sdk)](https://www.npmjs.com/package/qwed-sdk)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Accuracy](https://img.shields.io/badge/accuracy-99.2%25-brightgreen)](./benchmarks/)
 [![Security](https://img.shields.io/badge/security-100%25-brightgreen)](./benchmarks/)
@@ -35,18 +35,6 @@ Sign up at [qwed.tech](https://qwed.tech) to get your API key.
 - **Python:** `pip install qwed`
 - **JavaScript/TypeScript:** `npm install @qwed/sdk`
 
-### 3. Verify Your First Query
-```python
-from qwed import QwedClient
-
-# Connect to the live QWED API
-client = QwedClient(
-    api_key="YOUR_KEY",
-    base_url="http://13.71.22.94:8000"
-)
-
-result = client.verify_natural_language("What is 10 + 10?")
-
 print(result.final_answer)  # 20.0
 print(result.status)        # "VERIFIED"
 ```
@@ -76,14 +64,18 @@ stats_result = client.verify_stats(csv_data, "Average sales increased by 15%")
 ### JavaScript SDK
 #### Installation
 ```bash
-npm install @qwed/sdk
+npm install qwed-sdk
 ```
 
 #### Quick Start
 ```typescript
-import { QwedClient } from '@qwed/sdk';
+import { QwedClient } from 'qwed-sdk';
 
-const client = new QwedClient("sk_live_...");
+// Connect to the live QWED API
+const client = new QwedClient(
+    "YOUR_API_KEY",
+    "http://13.71.22.94:8000"
+);
 
 const result = await client.verifyNaturalLanguage("What is 15% of $200?");
 console.log(result.finalAnswer); // 30.0
