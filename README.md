@@ -39,7 +39,12 @@ Sign up at [qwed.tech](https://qwed.tech) to get your API key.
 ```python
 from qwed import QwedClient
 
-client = QwedClient(api_key="YOUR_KEY")
+# Connect to the live QWED API
+client = QwedClient(
+    api_key="YOUR_KEY",
+    base_url="http://13.71.22.94:8000"
+)
+
 result = client.verify_natural_language("What is 10 + 10?")
 
 print(result.final_answer)  # 20.0
